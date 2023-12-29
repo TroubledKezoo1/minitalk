@@ -6,7 +6,7 @@
 /*   By: ysarac <ysarac@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/29 11:37:53 by ulyildiz          #+#    #+#             */
-/*   Updated: 2023/12/29 20:12:45 by ysarac           ###   ########.fr       */
+/*   Updated: 2023/12/29 20:17:19 by ysarac           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,7 +76,7 @@ void	f_handler(int sig)
 {
 	if (sig == SIGUSR1)
 	{
-		write(1, "Message is complated\n", 21);
+		write(1, "Message is complated :)\n", 24);
 		exit(0);
 	}
 }
