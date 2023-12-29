@@ -6,7 +6,7 @@
 /*   By: ysarac <ysarac@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/29 18:52:03 by ysarac            #+#    #+#             */
-/*   Updated: 2023/12/29 19:28:08 by ysarac           ###   ########.fr       */
+/*   Updated: 2023/12/29 20:12:40 by ysarac           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,7 +77,7 @@ int	main(int argc, char *argv[])
 	}
 	else
 	{
-		write(1, "Please, just type \"./server\".", 28);
+		write(1, "Please, just type \"./server_bonus\".", 28);
 		return (1);
 	}
 	return (0);

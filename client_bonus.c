@@ -6,7 +6,7 @@
 /*   By: ysarac <ysarac@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/29 11:37:53 by ulyildiz          #+#    #+#             */
-/*   Updated: 2023/12/29 19:28:43 by ysarac           ###   ########.fr       */
+/*   Updated: 2023/12/29 20:12:45 by ysarac           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,7 +89,7 @@ int	main(int argc, char *argv[])
 	signal(SIGUSR1, f_handler);
 	if (argc != 3)
 	{
-		write(1, "Type as:./client <server_pid_number> <string>\n", 46);
+		write(1, "Type as:./client_bonus <server_pid_number> <string>\n", 46);
 		return (1);
 	}
 	i = 0;
