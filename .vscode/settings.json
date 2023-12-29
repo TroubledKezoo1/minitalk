@@ -1,0 +1,12 @@
+{
+	"files.associations": {
+		"minitalk.h": "c",
+		"unistd.h": "c",
+		"stdio.h": "c",
+		"types.h": "c",
+		"cstdio": "c",
+		"minitalk_bonus.h": "c",
+		"cstdlib": "c",
+		"locale": "c"
+	}
+}
